@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" 
+       >
+
+        <TextView
+        android:id="@+id/textqn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       
+        android:text="@string/qn2.1"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#000" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       >
+
+        <RadioButton
+            android:id="@+id/radio0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="a)health" />
+
+        <RadioButton
+            android:id="@+id/radio1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="b)disease" />
+
+        <RadioButton
+            android:id="@+id/radio2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="c)money" />
+    </RadioGroup>
+    
+    <TextView
+        android:id="@+id/textqn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/qn2.2"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#000" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"       
+         >
+
+        <RadioButton
+            android:id="@+id/radio3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"           
+            android:text="a)human" />
+
+        <RadioButton
+            android:id="@+id/radio4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="b)environmental" />
+
+        <RadioButton
+            android:id="@+id/radio5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="c)physical" />
+    </RadioGroup>
+    
+    <TextView
+        android:id="@+id/textqn3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/qn2.3"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#000" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       >
+
+        <RadioButton
+            android:id="@+id/radio6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="a)physical" />
+
+        <RadioButton
+            android:id="@+id/radio7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="b)social" />
+
+        <RadioButton
+            android:id="@+id/radio8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="c)mental" />
+    </RadioGroup>
+    
+    
+    <TextView
+        android:id="@+id/textqn4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"     
+        android:text="@string/qn2.4"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#000" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radio9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"      
+            android:text="a)disease" />
+
+        <RadioButton
+            android:id="@+id/radio10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="b)wealth" />
+
+        <RadioButton
+            android:id="@+id/radio11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="c)health" />
+        
+    </RadioGroup>
+    
+    <TextView
+        android:id="@+id/textqn5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"     
+        android:text="@string/qn2.5"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#000" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radio12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"      
+            android:text="a)social" />
+
+        <RadioButton
+            android:id="@+id/radio13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="b)genetic" />
+
+        <RadioButton
+            android:id="@+id/radio14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="c)political" />
+        
+    </RadioGroup>
+    
+    <TextView
+        android:id="@+id/textqn6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"     
+        android:text="@string/qn2.6"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#000" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radio15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"      
+            android:text="a)100-120mg/100ml" />
+
+        <RadioButton
+            android:id="@+id/radio16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="b)80-120mg/150ml" />
+
+        <RadioButton
+            android:id="@+id/radio17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="c)80-120mg/100ml" />
+        
+    </RadioGroup>
+    
+    <TextView
+        android:id="@+id/textqn7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"     
+        android:text="@string/qn2.7"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#000" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radio18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"      
+            android:text="a)hormone" />
+
+        <RadioButton
+            android:id="@+id/radio19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="b)DNA" />
+
+        <RadioButton
+            android:id="@+id/radio20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="c)blood" />
+        
+    </RadioGroup>
+    
+    <TextView
+        android:id="@+id/textqn8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"     
+        android:text="@string/qn2.8"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#000" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radio21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"      
+            android:text="a)salt" />
+
+        <RadioButton
+            android:id="@+id/radio22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="b)sugar" />
+
+        <RadioButton
+            android:id="@+id/radio23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="c)sulpher" />
+        
+    </RadioGroup>
+    
+    <TextView
+        android:id="@+id/textqn9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"     
+        android:text="@string/qn2.9"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#000" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radio24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"      
+            android:text="a)Diabetes Insipidus" />
+
+        <RadioButton
+            android:id="@+id/radio25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="b)Renal failure" />
+
+        <RadioButton
+            android:id="@+id/radio26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="c)Diabetes mellitus" />
+        
+    </RadioGroup>
+    
+    <TextView
+        android:id="@+id/textqn10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"     
+        android:text="@string/qn2.10"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#000" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radio27"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"      
+            android:text="a)genetic disorders" />
+
+        <RadioButton
+            android:id="@+id/radio28"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="b)mental disorders" />
+
+        <RadioButton
+            android:id="@+id/radio29"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="c)physical disorders" />
+        
+    </RadioGroup>
+    
+    <Button
+        android:id="@+id/btnsubmit"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Submit"/>
+    
+    <TextView
+        android:id="@+id/answers"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Correct Answers"
+        android:textColor="#000"/>
+    <TextView
+        android:id="@+id/displaycorrect"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text=""
+        android:textColor="#000"/>
+    </LinearLayout>
+
+</ScrollView>

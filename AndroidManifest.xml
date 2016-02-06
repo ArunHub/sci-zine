@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="arun.sci_zine"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="8" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ebook3"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="arun.sci_zine.MainActivity" android:clearTaskOnLaunch="true"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="arun.sci_zine.Chapters"></activity>
+        <activity android:name="arun.sci_zine.Heredity1"></activity>
+        <activity android:name="arun.sci_zine.Health2"></activity>
+        <activity android:name="arun.sci_zine.Mybody3"></activity>
+        <activity android:name="arun.sci_zine.Reproduction4"></activity>
+        <activity android:name="arun.sci_zine.Life5"></activity>
+        <activity android:name="arun.sci_zine.Science"></activity>
+        <activity android:name="arun.sci_zine.audio"></activity>
+        <activity android:name="arun.sci_zine.HearCh1"></activity>
+        <activity android:name="arun.sci_zine.HearCh2"></activity>
+        <activity android:name="arun.sci_zine.HearCh3"></activity>
+        <activity android:name="arun.sci_zine.HearCh4"></activity>
+        <activity android:name="arun.sci_zine.HearCh5"></activity>
+        <activity android:name="arun.sci_zine.Testchap"></activity>
+        <activity android:name="arun.sci_zine.test1"></activity>
+        <activity android:name="arun.sci_zine.test2"></activity>
+        <activity android:name="arun.sci_zine.test3"></activity>
+        <activity android:name="arun.sci_zine.test4"></activity>
+        <activity android:name="arun.sci_zine.test5"></activity>
+        
+        
+    </application>
+
+</manifest>

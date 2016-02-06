@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    
+    <LinearLayout
+        android:id="@+id/linear1"
+		android:layout_width="fill_parent"
+    	android:layout_height="440dp"
+    	android:orientation="vertical" >
+    	
+    <ViewFlipper
+        android:id="@+id/FlipPages4"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent" >
+		
+        	<TextView
+        	android:id="@+id/pageten"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="" 
+            android:typeface="serif"
+            android:textStyle="bold"/>
+
+        	<TextView
+			android:id="@+id/pageeleven"
+            android:text=""
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" 
+            android:typeface="serif"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:id="@+id/pagetwelve"
+            android:text=""
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" 
+            android:typeface="serif"
+            android:textColor="#000000"/>
+        </ViewFlipper>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/relative1"
+		android:layout_width="fill_parent"
+    	android:layout_height="fill_parent"
+    	android:background="#000000"
+    	>
+
+		<TextView
+		    android:id="@+id/Forward"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentRight="true"
+		    android:layout_centerVertical="true"
+		    android:layout_marginRight="44dp"
+		    android:text="@string/Forward"
+		    android:textAppearance="?android:attr/textAppearanceMedium"
+		    android:textColor="#00b9b9" />
+
+		<Button
+		    android:id="@+id/rightswipe"
+		    style="?android:attr/buttonStyleSmall"
+		    android:layout_width="40dp"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentRight="true"
+		    android:layout_alignParentTop="true"
+		    android:text="" 
+		    android:background="@drawable/smallright"/>
+
+		<Button
+		    android:id="@+id/leftswipe"
+		    style="?android:attr/buttonStyleSmall"
+		    android:layout_width="40dp"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentLeft="true"
+		    android:layout_alignParentTop="true"
+		    android:text="" 
+		    android:background="@drawable/smallright3"/>
+
+		<TextView
+		    android:id="@+id/Backward"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignBaseline="@+id/Forward"
+		    android:layout_alignBottom="@+id/Forward"
+		    android:layout_toRightOf="@+id/leftswipe"
+		    android:text="@string/Back"
+		    android:textAppearance="?android:attr/textAppearanceMedium"
+		    android:textColor="#00b9b9" />
+        
+    </RelativeLayout>
+        	
+</LinearLayout>

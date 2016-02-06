@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <LinearLayout 
+    android:id="@+id/insidelinear"
+    android:layout_width="match_parent"
+    android:layout_height="330dp"
+    android:orientation="vertical" 
+    android:background="@drawable/science">
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#3b3b3b" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/read"
+            android:layout_alignBottom="@+id/read"
+            android:layout_toRightOf="@+id/read"
+            android:text="@string/text"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <Button
+            android:id="@+id/read"
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/text" />
+
+        <Button
+            android:id="@+id/audio"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/read"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/audio" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/audio"
+            android:layout_alignBottom="@+id/audio"
+            android:layout_alignLeft="@+id/textView1"
+            android:text="@string/audio"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/websearch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/audio"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@+id/audio"
+            android:ems="10" 
+            android:hint="">
+
+            <requestFocus />
+        </EditText>
+
+        <Button
+            android:id="@+id/searchResult"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_alignParentBottom="true"
+            android:layout_toRightOf="@+id/websearch"
+            android:text="@string/search" />
+
+        <Button
+            android:id="@+id/btntest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textView1"
+            android:layout_alignBottom="@+id/textView1"
+            android:layout_alignParentRight="true"
+            android:text="@string/test" />
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Sci-Zine</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="Back">Swipe Left</string>
+    <string name="Forward">Swipe Right</string>
+    <string name="info">Info: Only Book Available Now</string>
+    <string name="text">Text Files</string>
+    <string name="audio">Hear Audio</string>
+    <string name="listen">Select the Chapters and Listen</string>
+    <string name="ch1">Ch1-Heredity and Evolution</string>
+    <string name="ch2">Ch2-Health and Hygiene</string>
+    <string name="ch3">Ch3-My Body</string>
+    <string name="ch4">Ch4-Reproduction in Plants</string>
+    <string name="ch5">Ch5-Life Processes</string>
+    <string name="hear">Click to Hear</string>
+    <string name="search">Search</string>
+    <string name="test">Test questions</string>
+    
+    <string name="qn1.1">1.how many bones are there in human body ??</string>
+    <string name="qn1.2">2.The inheritable characteristics may be physiological/reproductive and are also known as</string>
+    <string name="qn1.3">3.The inheritance of characteristics through generation is called</string>
+    <string name="qn1.4">4.father and mother contribute _______ amount of genetic material to the child</string>
+    <string name="qn1.5">5.each trait can be influenced by both paternal and maternal genetic material___</string>
+    <string name="qn1.6">6.The difference or change in the characteristics between the individuals is called__</string>
+    <string name="qn1.7">7.First experiment of Mendel considering the inheritance of a single trait___</string>
+    <string name="qn1.8">8.The expression of gene(or Chromosomal make up)of an individual for a particular trait is called__</string>
+    <string name="qn1.9">9.The genotype of a character is influenced by factors, called____</string>
+    <string name="qn1.10">10.The alternate expressions of the same gene are called___</string>
+    
+    <string name="qn2.1">1.There can be no wealth greater than the good ________ that a person enjoys</string>
+    <string name="qn2.2">2.temperature,humidity,wind,pressure,sun,rain,malnutrition are varying _______factors</string>
+    <string name="qn2.3">3.A mentally healthy person who knows his capacities,and judge his weakness by ________ dimension</string>
+    <string name="qn2.4">4.The condition of malfunctioning of the organ system or systems is called</string>
+    <string name="qn2.5">5.Diseases are caused due to various factors such as pathogens,environmental,nutritional,metabolic,</string>
+    <string name="qn2.6">6.Healthy body maintains a constant blood sugar level which is normally_______of blood</string>
+    <string name="qn2.7">7.All the processes are controlled by the________</string>
+    <string name="qn2.8">8.If Insulin is not produced in sufficient quantity,excess of_______cannot be stored and utilized</string>
+    <string name="qn2.9">9._______is a state of expulsion of excess unused glucose in the urine due to less production of insulin</string>
+    <string name="qn2.10">10.The Hereditary diseases are caused due to defective or mutated genes called___________</string>
+    
+    <string name="qn3.1">1.to maintain the harmonius steady state of body functioning called____</string>
+    <string name="qn3.2">2.In our body neural or nervous system and______system do the function of coordinating</string>
+    <string name="qn3.3">3.The nerve_______are certain bundles of extended processes of nerve cells</string>
+    <string name="qn3.4">4.Specialized cells called______or nerve cells which can detect different kinds of stimuli</string>
+    <string name="qn3.5">5.The distal branches terminate as bulb like structures called filled with chemicals called neuro</string>
+    <string name="qn3.6">6.Axon contains axoplasm inside and is covered by a membrane called____</string>
+    <string name="qn3.7">7.The gaps left by the myelin sheath on the axon are called Nodes of Ranvier___</string>
+    <string name="qn3.8">8.Over the myelin sheath are found certain cells called_______cells</string>
+    <string name="qn3.9">9.Nerve cells or neurons are the structural and functional units of the______system</string>
+    <string name="qn3.10">10.The CNS includes the_______and spinal cord and it is the site of information processing and control</string>
+    
+    <string name="qn4.1">1.________is one of the biological processes like nutrition,respiration and excretion etc</string>
+    <string name="qn4.2">2.Reproduction is a special biological process done by all</string>
+    <string name="qn4.3">3.Unicellular organisms,like amoeba and bacteria,split into two equal halves</string>
+    <string name="qn4.4">4.Conversion of milk into curd by</string>
+    <string name="qn4.5">5.Vegetative propagation</string>
+    <string name="qn4.6">6.Asexual reproduction	</string>
+    <string name="qn4.7">7.Sexual reproduction</string>
+    <string name="qn4.8">8._______is the ability of plants to reproduce by bringing forth new plants from existing vegetative</string>
+    <string name="qn4.9">9._______is the process in which two components(male and female)are involved to produce offsprings</string>
+    <string name="qn4.10">10.How does sexual reproduction take place in flowering plants?</string>
+    
+    <string name="qn5.1">1.______are found almost in all habitats like oceans,freshwater,</string>
+    <string name="qn5.2">2.Mammalian hair is a new form of skin structure a derivative from the______</string>
+    <string name="qn5.3">3.All female mammals possess mammary glands that secrete_____</string>
+    <string name="qn5.4">4.The place of living of an organism is its_____</string>
+    <string name="qn5.5">5._______are the only mammals capable of powered flight</string>
+    <string name="qn5.6">6.The forelimbs of bats are modified into______like structure</string>
+    <string name="qn5.7">7.The polar bears have thick skin coats and woolly fur to bear the biting______of the polar regions</string>
+    <string name="qn5.8">8.The supreme mamma is________</string>
+    <string name="qn5.9">9.Mammals are______or homeotherms,maintaining a constant body temperature in the surroundings</string>
+    <string name="qn5.10">10.The body temperature in man is maintained at 98.4oF to 98.6oF	</string>
+    
+
+</resources>
